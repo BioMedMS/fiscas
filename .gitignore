@@ -1,0 +1,5 @@
+fiscas-venv/
+.ipynb_checkpoints/
+tmp/
+data/
+results/
