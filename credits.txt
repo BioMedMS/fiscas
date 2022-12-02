@@ -1,0 +1,16 @@
+Authors: 
+
+Name: Jan Schwenzfeier
+Mail: j_schw74@uni-muenster.de
+Affiliation: Universit of Muenster
+
+Name: Krischan Koerfer
+Mail: 
+Affiliation: University of Muenster
+
+Cooperations:
+
+Name: Dr. Thomas Zobel, Sarah Weischer
+Mail: thomas.zobel@uni-muenster.de, sarah.weischer@uni-muenster.de
+Affiliation: Imaging Network Muenster
+
