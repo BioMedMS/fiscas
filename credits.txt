@@ -2,10 +2,10 @@ Authors:
 
 Name: Jan Schwenzfeier
 Mail: j_schw74@uni-muenster.de
-Affiliation: Universit of Muenster
+Affiliation: University of Muenster
 
 Name: Krischan Koerfer
-Mail: 
+Mail: krischan.koerfer@uni-muenster.de
 Affiliation: University of Muenster
 
 Cooperations:

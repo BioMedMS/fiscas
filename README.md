@@ -23,12 +23,12 @@ Then you can start installing CellProfiler (Version 4.2.1). You can find detaile
 
 3) Cellpose and Stardist
 
-Then you need to install Cellpose and Stardist. Simply run `pip install cellpose==2.1.1` and `pip install stardist==0.8.3`. After that you need to include both of them in your CellProfiler installation. For that you can download the 'runcellpose.py' and 'runstardist.py' skripts from the CellProfiler-plugins Github page (https://github.com/CellProfiler/CellProfiler-plugins) and move both of them into the plugin folder specified by your CellProfiler installation.  
+Then you need to install Cellpose and Stardist. Simply run `pip install cellpose==2.1.1` and `pip install stardist==0.8.3`. After that you need to include both of them in your CellProfiler installation. For that you can download the 'runcellpose.py' and 'runstardist.py' scripts from the CellProfiler-plugins Github page (https://github.com/CellProfiler/CellProfiler-plugins) and move both of them into the plugin folder specified by your CellProfiler installation.  
 
 4) Python packages
 
 A complete list with all python packages can be found in the 'requirements.txt' file. 
-Here is a list of command you need to run to install all the packages you need:
+Here is a list of commands you need to run to install all the packages you need:
 
 - `pip install matplotlib`
 - `pip install pandas`
