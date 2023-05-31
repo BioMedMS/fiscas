@@ -1,4 +1,5 @@
 # FISCAS
+
 ## Fluorescence Integrated Single-Cell Analysis Script
 ***
 ### Introduction
@@ -56,3 +57,14 @@ The program is implemented in Jupyter-lab.
 
 Jupyter-Lab is easy to use even without any programming experience. The interactive environment makes an intuitive workflow possible and minimizes running time while testing different run settings.
 It is recommended to run the tutorial first. However due to the nature of the MALDI data, the size of the test-data is rather large. Therefore the data needed for the tutorial is not provided through github, but can be downloaded under this link instead (https://uni-muenster.sciebo.de/s/PAL52iMhSuUaS2W). To set everything up firstly clone the github repo to the destination of your choice. After that download the data folder from the sciebo cloud and move it into the tutorial folder of the github repo. Then you can start with the tutorial by activating your virtual environment and running `jupyter-lab <path-to-jupyter-lab-tutorial.ipynb>` in your command line tool. All the instructions on how to run the tutorial are already included in the notebook (tutorial.ipynb). 
+
+## Cell ROI Generator
+
+***
+
+### Introduction
+This tool allows you to acquire single-cell MALDI-MSI data much faster by generating automatically ROIs around the cells you want to measure and thereby neglecting all the background pixels. For now this works only with Brukers FlexImaging software.  
+
+### Prerequisites 
+For the workflow to work you need a fluorescence image of your cellbodies with fiducial markers that show up in the fluorescence image as well as in the in source built camera of your mass spectrometer. You can introduce those by marking your slide with a fluorescent pen and then scratching lines in those markings with a glass cutter. 
+With that you are good to go. Everything else gets described in the script which you can find in the scripts folder. The tutorial isn't ready yet but will soon follow.   
