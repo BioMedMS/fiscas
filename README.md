@@ -66,5 +66,5 @@ It is recommended to run the tutorial first. However due to the nature of the MA
 This tool allows you to acquire single-cell MALDI-MSI data much faster by generating automatically ROIs around the cells you want to measure and thereby neglecting all the background pixels. For now this works only with Brukers FlexImaging software.  
 
 ### Prerequisites 
-For the workflow to work you need a fluorescence image of your cellbodies with fiducial markers that show up in the fluorescence image as well as in the in source built camera of your mass spectrometer. You can introduce those by marking your slide with a fluorescent pen and then scratching lines in those markings with a glass cutter. 
+For the workflow to work you need a fluorescence image of your cellbodies with fiducial markers that show up in the fluorescence image as well as in the in source camera of your mass spectrometer. You can introduce those by marking your slide with a fluorescent pen and then scratching lines in those markings with a glass cutter. 
 With that you are good to go. Everything else gets described in the script which you can find in the scripts folder. The tutorial isn't ready yet but will soon follow.   
