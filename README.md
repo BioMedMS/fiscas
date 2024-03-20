@@ -44,6 +44,8 @@ Here is a list of commands you need to run to install all the packages you need:
 - `pip install pyimzml` (if you want to import .imzml)
 - `pip install tqdm`
 - `pip install tensorflow`
+- `pip install mplcursors`
+- `pip install ipympl`
 
 If you want to use the SCiLS import you also need to install the SCiLS API. Instructions for that can be found in the SCiLS Manual.
 
