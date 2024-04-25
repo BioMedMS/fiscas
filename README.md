@@ -6,7 +6,7 @@
 
 This python based program can be used to combine MALDI imaging data with microscope images to: 
 1. overlay maldi images with microscope images 
-2. perform a cell segmentation (based on Cellprofiler)
+2. perform a cell segmentation (based on Cellprofiler, but any segmentation mask can be used)
 3. calculate single cell mass spectra based on the previous 2 steps
 
 ### Installation and Prerequesites 
@@ -18,13 +18,15 @@ The installation can be a bit tricky due to dependency conflicts of different pa
 The first thing you need is a clean installation of Python 3.8.10. Other versions might work as well but this is the one it was successfully tested on while many newer versions failed. This will be true for all the versions mentioned in the following. To circumvent dependency conflicts it is recommended to use a virtual environment for all of the following installations. If you don't know how to do that you can find help under this link: https://docs.python.org/3/library/venv.html.
 If you have set up your environment and activated it, install numpy `pip install numpy`
 
-2) Cellprofiler
+2) Cellprofiler (optional)
 
 Then you can start installing CellProfiler (Version 4.2.1). You can find detailed instructions for that under https://github.com/CellProfiler/CellProfiler/wiki/Source-installation-%28Windows%29. For version 4.2.1 you can skip the step in which you clone the github directory and replace `pip install -e .` with `pip install cellprofiler==4.2.1`
+If you don't want to use CellProfiler for your segmentation you can also directly load in a segmentation mask created by other programs.
 
-3) Cellpose and Stardist
+3) Cellpose and Stardist (optional)
 
-Then you need to install Cellpose and Stardist. Simply run `pip install cellpose==2.1.1` and `pip install stardist==0.8.3`. After that you need to include both of them in your CellProfiler installation. For that you can download the 'runcellpose.py' and 'runstardist.py' scripts from the CellProfiler-plugins Github page (https://github.com/CellProfiler/CellProfiler-plugins) and move both of them into the plugin folder specified by your CellProfiler installation.  
+You only need these packages if you want to do the segmentation with the implemented Cellprofiler pipeline.
+If you do, you need to install Cellpose and Stardist. Simply run `pip install cellpose==2.1.1` and `pip install stardist==0.8.3`. After that you need to include both of them in your CellProfiler installation. For that you can download the 'runcellpose.py' and 'runstardist.py' scripts from the CellProfiler-plugins Github page (https://github.com/CellProfiler/CellProfiler-plugins) and move both of them into the plugin folder specified by your CellProfiler installation.  
 
 4) Python packages
 
