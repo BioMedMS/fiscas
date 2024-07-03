@@ -142,7 +142,7 @@ stardist==0.8.3
 tensorboard==2.10.1
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.10.0
+tensorflow==2.11.1
 tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.27.0
 termcolor==2.1.0
@@ -151,7 +151,7 @@ threadpoolctl==3.1.0
 tifffile==2022.4.8
 tinycss2==1.2.1
 tomli==2.0.1
-torch==1.13.0
+torch==1.13.1
 tornado==6.2
 tqdm==4.64.1
 traitlets==5.5.0
@@ -160,7 +160,7 @@ urllib3==1.26.12
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.4.2
-Werkzeug==2.2.2
+Werkzeug==3.0.3
 wheezy.template==3.1.0
 widgetsnbextension==4.0.3
 wrapt==1.14.1
